@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --col1:  #EC5800;
+}
+
+body{
+    background-color: #1B1212;
+    /* color: white; */
+}
+
+.mainhead1{
+    -webkit-text-stroke: 1px var(--col1);
+    color: transparent;
+    font-size: 10rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+::--webkit-scrollbar{
+    width: 4px;
+
+}
+
+::--webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: var(--col1);
+    box-shadow: insert 0 0 6px rgba(0, 0, 0, .5);
+}
